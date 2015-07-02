@@ -19,7 +19,7 @@ namespace ASPMidtermSchool.CourseInfomations
 
         // Model binding method to get List of CourseInfomation entries
         // USAGE: <asp:ListView SelectMethod="GetData">
-        public IQueryable<ASPMidtermSchool.Models.CourseInfomation> GetData()
+        public IQueryable<midterm.Models.CourseInfomations> GetData()
         {
             return _db.CourseInfomations;
         }

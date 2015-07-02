@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace midterm {
+namespace ASPMidtermSchool {
     
     
     public partial class Site_Mobile {

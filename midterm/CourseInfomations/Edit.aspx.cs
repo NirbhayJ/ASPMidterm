@@ -46,7 +46,7 @@ namespace ASPMidtermSchool.CourseInfomations
 
         // This is the Select method to selects a single CourseInfomation item with the id
         // USAGE: <asp:FormView SelectMethod="GetItem">
-        public ASPMidtermSchool.Models.CourseInfomation GetItem([FriendlyUrlSegmentsAttribute(0)]int? CourseID)
+        public midterm.Models.CourseInfomation GetItem([FriendlyUrlSegmentsAttribute(0)]int? CourseID)
         {
             if (CourseID == null)
             {
